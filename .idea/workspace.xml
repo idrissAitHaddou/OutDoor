@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="architecture">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +52,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "D:/java projects/spring/out-door/product/src/main/resources",
+    "last_opened_file_path": "D:/java projects/spring/out-door",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "87fb3f03e3fd9e17ea9e0ed20c1b58d1",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,6 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675763754007</updated>
       <workItem from="1675763755584" duration="2868000" />
+      <workItem from="1675773504391" duration="12000" />
+      <workItem from="1675931210588" duration="3678000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675765528643</created>
