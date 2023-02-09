@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="architecture">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="feat: environment db with docker" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -51,13 +54,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "D:/java projects/spring/out-door/product/src/main/resources",
+    "last_opened_file_path": "D:/java projects/spring/out-door",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "87fb3f03e3fd9e17ea9e0ed20c1b58d1",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,6 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675763754007</updated>
       <workItem from="1675763755584" duration="2868000" />
+      <workItem from="1675773504391" duration="12000" />
+      <workItem from="1675931210588" duration="4150000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675765528643</created>
@@ -115,7 +121,49 @@
       <option name="project" value="LOCAL" />
       <updated>1675765528643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: environment db with docker">
+      <created>1675938863089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675938863089</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: environment db with docker">
+      <created>1675938911245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675938911245</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: environment db with docker">
+      <created>1675938933332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675938933332</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: environment db with docker">
+      <created>1675938939327</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675938939327</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: environment db with docker">
+      <created>1675938972568</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675938972569</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: environment db with docker">
+      <created>1675938995368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675938995368</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +182,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="feat: environment db with docker compose" />
+    <MESSAGE value="feat: environment db with docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: environment db with docker" />
   </component>
 </project>
