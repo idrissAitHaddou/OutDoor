@@ -93,4 +93,4 @@ volumes:
   webapps:
   pgadmin:
   postgres:
-  data: {}
+  data:
