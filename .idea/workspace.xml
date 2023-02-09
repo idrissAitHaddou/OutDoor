@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="feat: environment db with docker">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="feat: structur of service order" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +73,7 @@
       <recent name="D:\java projects\spring\out-door\inventory\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientApplication">
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.outdoor.client.ClientApplication" />
@@ -115,7 +113,7 @@
       <updated>1675763754007</updated>
       <workItem from="1675763755584" duration="2868000" />
       <workItem from="1675773504391" duration="12000" />
-      <workItem from="1675931210588" duration="7888000" />
+      <workItem from="1675931210588" duration="8201000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675765528643</created>
@@ -166,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675938995368</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: structur of service order">
+      <created>1675948863830</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675948863830</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: structur of service order">
+      <created>1675948868635</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675948868635</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +199,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="feat: environment db with docker compose" />
     <MESSAGE value="feat: environment db with docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: environment db with docker" />
+    <MESSAGE value="feat: structur of service order" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: structur of service order" />
   </component>
 </project>
