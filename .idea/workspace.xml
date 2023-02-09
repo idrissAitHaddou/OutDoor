@@ -4,23 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="architecture">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/outdoor/client/ClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/InventoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/test/java/com/outddor/inventory/InventoryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/test/java/com/outdoor/order/OrderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/test/java/com/outdoor/product/ProductApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/product" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,10 +81,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -56,8 +91,6 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -106,34 +139,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675763754007</updated>
-      <workItem from="1675763755584" duration="2868000" />
+      <workItem from="1675763755584" duration="1484000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1675765528643</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1675765528643</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
