@@ -1,0 +1,141 @@
+Index: .idea/jpa-buddy.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"JpaBuddyIdeaProjectConfig\">\r\n    <option name=\"renamerInitialized\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jpa-buddy.xml b/.idea/jpa-buddy.xml
+--- a/.idea/jpa-buddy.xml	(revision 69eb094adc5f7dd41b06a25240abd1eb3a2d194e)
++++ b/.idea/jpa-buddy.xml	(date 1676018552519)
+@@ -1,6 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="JpaBuddyIdeaProjectConfig">
++    <option name="defaultUnitInitialized" value="true" />
+     <option name="renamerInitialized" value="true" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3c4ead35-abf2-4acd-b970-d09b522f7bb1\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/jpa-buddy.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client/mvnw\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client/mvnw.cmd\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client/src/main/java/com/outdoor/client/ClientApplication.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client/src/main/resources/application.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client/src/main/resources/banner.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/client/src/test/java/com/outdoor/client/ClientApplicationTests.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/inventory/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/inventory/.mvn/wrapper/maven-wrapper.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/inventory/.mvn/wrapper/maven-wrapper.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/inventory/mvnw\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/inventory/mvnw.cmd\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/inventory/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/InventoryApplication.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/inventory/src/main/resources/application.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/inventory/src/main/resources/banner.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/inventory/src/test/java/com/outddor/inventory/InventoryApplicationTests.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/.mvn/wrapper/maven-wrapper.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/.mvn/wrapper/maven-wrapper.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/mvnw\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/mvnw.cmd\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/src/main/java/com/outdoor/order/OrderApplication.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/src/main/resources/application.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/src/main/resources/banner.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/order/src/test/java/com/outdoor/order/OrderApplicationTests.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/product/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/product/mvnw\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/product/mvnw.cmd\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/product/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/product/src/main/java/com/outdoor/product/ProductApplication.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/product/src/main/resources/application.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/product/src/main/resources/banner.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/product/src/test/java/com/outdoor/product/ProductApplicationTests.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/product\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"importingSettings\">\r\n      <MavenImportingSettings>\r\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\r\n      </MavenImportingSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2LPDJSjl4y3X94ukZ4SmjpkXUi6\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"jdk.selected.JAVA_MODULE\": \"19\",\r\n    \"last_opened_file_path\": \"D:/java projects/spring/out-door/product/src/main/resources\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\java projects\\spring\\out-door\\product\\src\\main\\resources\" />\r\n      <recent name=\"D:\\java projects\\spring\\out-door\\order\\src\\main\\resources\" />\r\n      <recent name=\"D:\\java projects\\spring\\out-door\\inventory\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.ClientApplication\">\r\n    <configuration name=\"ClientApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"client\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.outdoor.client.ClientApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"InventoryApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"inventory\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.outddor.inventory.InventoryApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"OrderApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"order\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.outdoor.order.OrderApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"product\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.outdoor.product.ProductApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3c4ead35-abf2-4acd-b970-d09b522f7bb1\" name=\"Changes\" comment=\"\" />\r\n      <created>1675763754007</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1675763754007</updated>\r\n      <workItem from=\"1675763755584\" duration=\"1484000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 69eb094adc5f7dd41b06a25240abd1eb3a2d194e)
++++ b/.idea/workspace.xml	(date 1676018640279)
+@@ -5,53 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client/mvnw" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client/mvnw.cmd" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/ClientApplication.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/application.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/banner.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/client/src/test/java/com/outdoor/client/ClientApplicationTests.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/inventory/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/inventory/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/inventory/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/inventory/mvnw" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/inventory/mvnw.cmd" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/InventoryApplication.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/inventory/src/main/resources/banner.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/inventory/src/test/java/com/outddor/inventory/InventoryApplicationTests.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/mvnw" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/mvnw.cmd" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/OrderApplication.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/src/main/resources/application.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/src/main/resources/banner.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/order/src/test/java/com/outdoor/order/OrderApplicationTests.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/product/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/product/mvnw" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/product/mvnw.cmd" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/ProductApplication.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/product/src/main/resources/banner.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/product/src/test/java/com/outdoor/product/ProductApplicationTests.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -59,18 +14,14 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/product" />
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="JpbToolWindowState">
++    <option name="isToolWindowVisible" value="false" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+-  <component name="MavenImportPreferences">
+-    <option name="importingSettings">
+-      <MavenImportingSettings>
+-        <option name="workspaceImportEnabled" value="true" />
+-      </MavenImportingSettings>
+-    </option>
+-  </component>
+   <component name="ProjectId" id="2LPDJSjl4y3X94ukZ4SmjpkXUi6" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+@@ -91,6 +42,8 @@
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "spring.configuration.checksum": "6dc8cbd4a0b84206e8d700a005541080",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+@@ -140,10 +93,22 @@
+       <option name="presentableId" value="Default" />
+       <updated>1675763754007</updated>
+       <workItem from="1675763755584" duration="1484000" />
++      <workItem from="1676018315845" duration="319000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
+ </project>
+\ No newline at end of file
