@@ -1,5 +1,7 @@
 package com.outdoor.order.command;
 
-public interface CommandRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CommandRepository extends JpaRepository<Command, Long> {
 
 }

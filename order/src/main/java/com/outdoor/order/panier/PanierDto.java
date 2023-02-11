@@ -1,8 +1,5 @@
-package com.outdoor.order.responce;
+package com.outdoor.order.panier;
 
-import com.outdoor.order.command.CommandProducts;
-import com.outdoor.order.panier.PanierProducts;
-import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,7 +8,7 @@ import java.util.List;
 
 @Getter
 @Setter
-public class PanierResponce {
+public class PanierDto {
     private Long id;
     private int idUser;
     private List<PanierProducts> panierProducts = new ArrayList<>();
