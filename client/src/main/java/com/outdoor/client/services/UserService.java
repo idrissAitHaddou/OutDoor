@@ -10,6 +10,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import java.util.List;
+
 
 @Service
 @RequiredArgsConstructor
@@ -21,16 +23,24 @@ public class UserService {
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
 
-    public void createUser(UserRequest userRequest) throws Exception{
-        if (userRepository.findByEmail(userRequest.getEmail()).isPresent()) {
-            throw new Exception("User already exists");
-        }
-        User user = mapperUserDto.convertToEntity(UserResponse.builder().build(), User.class);
-        if (user != null) {
-            user.setPassword(bCryptPasswordEncoder.encode(userRequest.getPassword()));
-            userRepository.save(user);
-        } else {
-            throw new Exception("User not found");
-        }
+    public void createUser(UserRequest userRequest){
+        User user = User.builder()
+                .firstname(userRequest.getFirstname())
+                .lastname(userRequest.getLastname())
+                .email(userRequest.getEmail())
+                .password(bCryptPasswordEncoder.encode(userRequest.getPassword()))
+                .image(userRequest.getImage())
+                .role(userRequest.getRole())
+                .build();
+        userRepository.save(user);
+        log.info("User {} is saved", user.getId_user());
+
+    }
+
+    public List<UserResponse> getAllUsers() {
+
+        List<User> users = userRepository.findAll();
+        List<UserResponse> userResponses = mapperUserDto.convertListToListDto(users,UserResponse.class);
+        return userResponses;
     }
 }

@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +59,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -106,7 +111,7 @@
       <recent name="D:\java projects\spring\out-door\inventory\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication">
+  <component name="RunManager" selected="Spring Boot.ClientApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.outdoor.client.ClientApplication" />
