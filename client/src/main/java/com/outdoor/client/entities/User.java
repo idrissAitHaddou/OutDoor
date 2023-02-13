@@ -1,38 +1,32 @@
 package com.outdoor.client.entities;
 
-import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Getter
-@Setter
-@Entity
-@Table(name = "user", catalog = "outdour")
+
+@Document(collection = "user")
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Data
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_user")
-    private int id_user;
+    private String id_user;
 
-    @Column(name = "firstname")
     private String firstname;
 
-    @Column(name = "lastname")
     private String lastname;
 
-    @Column(name = "email")
     private String email;
 
-    @Column(name = "password")
     private String password;
 
-    @Column(name = "image")
     private String image;
 
-    @Column(name = "role")
     private String role;
     
-    
+
 
 
 }
