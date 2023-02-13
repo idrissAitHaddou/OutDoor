@@ -21,6 +21,6 @@ public class UserController {
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
     public void createUser(@Valid @RequestBody UserRequest userRequest){
-        userService.createUser(userRequest);
+//        userService.createUser(userRequest);
     }
 }

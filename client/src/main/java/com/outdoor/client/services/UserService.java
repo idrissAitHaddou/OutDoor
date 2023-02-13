@@ -25,7 +25,7 @@ public class UserService {
         if (userRepository.findByEmail(userRequest.getEmail()).isPresent()) {
             throw new Exception("User already exists");
         }
-        User user = mapperUserDto.convertToEntity(userRequest, User.class);
+        User user = mapperUserDto.convertToEntity(UserResponse.builder().build(), User.class);
         if (user != null) {
             user.setPassword(bCryptPasswordEncoder.encode(userRequest.getPassword()));
             userRepository.save(user);
