@@ -2,6 +2,8 @@ package com.outdoor.product.entities;
 
 import com.outdoor.product.helper.Indices;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
@@ -10,7 +12,9 @@ import org.springframework.data.elasticsearch.annotations.Setting;
 
 import java.util.Date;
 
-@Data
+@Getter
+@Setter
+
 @Document(indexName = "products")
 @Setting(settingPath = "static/es-settings.json")
 public class Product {
