@@ -1,0 +1,96 @@
+services:
+  tomcat:
+    container_name: tomcat
+    image: tomcat
+    ports:
+      - "80:8080"
+    volumes:
+      - "webapps:/usr/local/tomcat/webapps"
+  mongodb:
+    container_name: mongodb
+    image: mongo:4.0
+    ports:
+      - 27018:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=root
+    volumes:
+      - data:/data
+    networks:
+      - mongo-compose-network
+  mongo-express:
+    image: mongo-express
+    container_name: mongo-express-container
+    depends_on:
+      - mongodb
+    restart: always
+    ports:
+      - "28081:8081"
+    environment:
+      - ME_CONFIG_MONGODB_PORT=27017
+      - ME_CONFIG_MONGODB_AUTH_USERNAME=admin
+      - ME_CONFIG_MONGODB_AUTH_PASSWORD=root
+      - ME_CONFIG_BASICAUTH_USERNAME=admin
+      - ME_CONFIG_BASICAUTH_PASSWORD=root
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+    networks:
+      - mongo-compose-network
+    volumes:
+      - ./data:/data/mongodb
+  postgres:
+    container_name: postgres
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=admin
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    networks:
+      - postgres
+  pgadmin:
+    container_name: pgadmin4
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "5050:80"
+    networks:
+      - postgres
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+  elasticsearch:
+    container_name: es-container
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.11.0
+    environment:
+      - xpack.security.enabled=false
+      - "discovery.type=single-node"
+    networks:
+      - es-net
+    ports:
+      - 9200:9200
+  kibana:
+    container_name: kb-container
+    image: docker.elastic.co/kibana/kibana:7.11.0
+    environment:
+      - ELASTICSEARCH_HOSTS=http://es-container:9200
+    networks:
+      - es-net
+    depends_on:
+      - elasticsearch
+    ports:
+      - 5601:5601
+networks:
+  mongo-compose-network:
+    driver: bridge
+  postgres:
+    driver: bridge
+  es-net:
+    driver: bridge
+volumes:
+  webapps:
+  pgadmin:
+  postgres:
+  data: {}
