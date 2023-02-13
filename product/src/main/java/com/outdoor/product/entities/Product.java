@@ -1,23 +1,26 @@
 package com.outdoor.product.entities;
 
 import com.outdoor.product.helper.Indices;
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.elasticsearch.annotations.Document;
-import org.springframework.data.elasticsearch.annotations.Field;
-import org.springframework.data.elasticsearch.annotations.FieldType;
-import org.springframework.data.elasticsearch.annotations.Setting;
+import org.springframework.data.elasticsearch.annotations.*;
 
 import java.util.Date;
+import java.util.List;
 
-@Data
-@Document(indexName = "products")
-@Setting(settingPath = "static/es-settings.json")
+@Getter
+@Setter
+@Document(indexName = Indices.PRODUCT_INDEX)
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product {
 
     @Id
-    @Field(type = FieldType.Auto)
-    private Long id;
+    @Field(type = FieldType.Keyword)
+    private String id;
 
     @Field(type = FieldType.Text)
     private String name;
@@ -25,9 +28,14 @@ public class Product {
     @Field(type = FieldType.Text)
     private String description;
 
+    @Field(type = FieldType.Double)
+    private double price;
+
     @Field(type=FieldType.Integer)
     private Long qte;
     @Field(type = FieldType.Date)
     private Date createdAt;
 
+    @Field(type = FieldType.Nested)
+    private List<Images> images;
 }
