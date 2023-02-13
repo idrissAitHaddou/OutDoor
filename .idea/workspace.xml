@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/configuration/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/helper/Indices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/resources/static/es-settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/configuration/Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/entities/Images.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_9_2023_11_56_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_9_2023_11_56_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_9_2023_12_00_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_9_2023_12_00_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/configuration/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/configuration/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/helper/Indices.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/helper/Indices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +93,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "6dc8cbd4a0b84206e8d700a005541080",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -141,6 +144,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675763754007</updated>
       <workItem from="1675763755584" duration="1484000" />
+      <workItem from="1676058858265" duration="334000" />
+      <workItem from="1676120199248" duration="13158000" />
     </task>
     <servers />
   </component>
