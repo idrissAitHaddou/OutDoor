@@ -1,7 +1,5 @@
-package com.outdoor.order.responce;
+package com.outdoor.order.command;
 
-import com.outdoor.order.command.CommandProducts;
-import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,7 +8,7 @@ import java.util.List;
 
 @Getter
 @Setter
-public class CommandResponce {
+public class CommandDto {
     private Long id;
     private String status;
     private String adress;
