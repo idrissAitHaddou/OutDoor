@@ -22,10 +22,6 @@ public class UserService {
     private final IMapperDto<UserResponse, User> mapperUserDto;
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> ae0533eb34d705c91c38186ac3a9e9f1e9eed94a
     public void createUser(UserRequest userRequest){
         User user = User.builder()
                 .firstname(userRequest.getFirstname())
