@@ -5,7 +5,11 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 
+<<<<<<< HEAD
+@Document(collection = "users")
+=======
 @Document(collection = "user")
+>>>>>>> ae0533eb34d705c91c38186ac3a9e9f1e9eed94a
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
@@ -25,8 +29,11 @@ public class User {
     private String image;
 
     private String role;
+<<<<<<< HEAD
+=======
     
 
 
 
+>>>>>>> ae0533eb34d705c91c38186ac3a9e9f1e9eed94a
 }

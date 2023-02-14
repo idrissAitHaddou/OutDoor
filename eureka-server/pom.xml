@@ -7,11 +7,11 @@
         <artifactId>out-door</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>com.outddor</groupId>
-    <artifactId>inventory</artifactId>
+    <groupId>com.outdoor</groupId>
+    <artifactId>eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>inventory</name>
-    <description>inventory</description>
+    <name>eureka-server</name>
+    <description>eureka-server</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
@@ -20,19 +20,11 @@
         <spring.dependencies.version>3.0.0</spring.dependencies.version>
     </properties>
     <dependencies>
-        <!-- spring web -->
+        <!-- spring eureka server -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
-<<<<<<< HEAD
-        <!-- spring eureka client -->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
-<!--        </dependency>-->
-=======
->>>>>>> ae0533eb34d705c91c38186ac3a9e9f1e9eed94a
     </dependencies>
 
     <build>

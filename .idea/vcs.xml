@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+<<<<<<< HEAD
+    <mapping directory="$PROJECT_DIR$/eureka-server" vcs="Git" />
+=======
+>>>>>>> ae0533eb34d705c91c38186ac3a9e9f1e9eed94a
   </component>
 </project>

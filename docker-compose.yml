@@ -10,7 +10,11 @@ services:
     container_name: mongodb
     image: mongo:4.0
     ports:
+<<<<<<< HEAD
+      - 27018:27017
+=======
       - 27017:27017
+>>>>>>> ae0533eb34d705c91c38186ac3a9e9f1e9eed94a
     environment:
       - MONGO_INITDB_ROOT_USERNAME=admin
       - MONGO_INITDB_ROOT_PASSWORD=root
