@@ -21,7 +21,10 @@
     <module>client</module>
     <module>order</module>
     <module>product</module>
+<<<<<<< HEAD
     <module>eureka-server</module>
+=======
+>>>>>>> ae0533eb34d705c91c38186ac3a9e9f1e9eed94a
   </modules>
 
   <properties>
@@ -30,7 +33,10 @@
     <maven.compiler.target>17</maven.compiler.target>
     <spring.boot.maven.plugin.version>3.0.0</spring.boot.maven.plugin.version>
     <spring.dependencies.version>3.0.0</spring.dependencies.version>
+<<<<<<< HEAD
     <spring.cloud-version>2022.0.1</spring.cloud-version>
+=======
+>>>>>>> ae0533eb34d705c91c38186ac3a9e9f1e9eed94a
   </properties>
 
   <dependencyManagement>
@@ -43,6 +49,7 @@
         <scope>import</scope>
         <type>pom</type>
       </dependency>
+<<<<<<< HEAD
       <!-- spring cloud -->
       <dependency>
         <groupId>org.springframework.cloud</groupId>
@@ -51,6 +58,8 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+=======
+>>>>>>> ae0533eb34d705c91c38186ac3a9e9f1e9eed94a
     </dependencies>
   </dependencyManagement>
 
