@@ -1,6 +1,5 @@
 package com.outdoor.client.controller;
 
-import com.outdoor.client.entities.User;
 import com.outdoor.client.request.UserRequest;
 import com.outdoor.client.response.UserResponse;
 import com.outdoor.client.services.UserService;
