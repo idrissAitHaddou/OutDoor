@@ -1,4 +1,4 @@
-package com.example.apigateway.security.filter;
+package com.outdoor.client.security.filter;
 
 public class JwtConstant {
     public static final String AUTORIZATION="Authorization";

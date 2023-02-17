@@ -1,5 +1,5 @@
-package com.example.apigateway.security.config;
-import com.example.apigateway.security.filter.JwtConstant;
+package com.outdoor.client.security.config;
+import com.outdoor.client.security.filter.JwtConstant;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

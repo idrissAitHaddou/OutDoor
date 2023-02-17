@@ -1,21 +1,15 @@
-package com.example.apigateway.security.config;
+package com.outdoor.client.security.config;
 
-import com.example.apigateway.security.filter.JwtAuthenticationFilter;
-import com.example.apigateway.security.filter.JwtAutorisationFilter;
-import com.example.apigateway.users.UserService;
+import com.outdoor.client.security.filter.JwtAuthenticationFilter;
+import com.outdoor.client.security.filter.JwtAutorisationFilter;
+import com.outdoor.client.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.annotation.Order;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
-import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
-import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -45,18 +39,15 @@ public class SecurityConfig {
     public SecurityConfig(JwtAutorisationFilter jwtAutorisationFilter, UserService userService) {
         this.jwtAutorisationFilter = jwtAutorisationFilter;
         this.userService = userService;
-        System.out.println("Creating constructore.");
     }
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        System.out.println("Creating security filter chain.");
         http
                 .csrf().disable()
                 .cors().and()
                 .authorizeHttpRequests(auth->auth.requestMatchers(PUBLIC_ENDPOINTS).permitAll())
                 .authorizeHttpRequests(auth->auth.anyRequest().authenticated())
-                .httpBasic().disable()
                 .sessionManagement()
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
@@ -107,4 +98,5 @@ public class SecurityConfig {
             }
         };
     }
+
 }

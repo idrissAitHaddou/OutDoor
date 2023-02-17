@@ -1,7 +1,7 @@
-package com.example.apigateway.security.filter;
+package com.outdoor.client.security.filter;
 
-import com.example.apigateway.security.config.JwtUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.outdoor.client.security.config.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -14,6 +14,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import java.io.IOException;
+
 
 public class JwtAuthenticationFilter  extends UsernamePasswordAuthenticationFilter {
     private AuthenticationManager authenticationManager;
