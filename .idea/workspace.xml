@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_9_2023_11_56_AM_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_9_2023_11_56_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_9_2023_12_00_PM_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_9_2023_12_00_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,23 +84,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "D:/java projects/spring/myPet",
+    "last_opened_file_path": "D:/java projects/spring/OutDoor/api-gateway/src/main/java/com/example/apigateway",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "731228ef2e62301a86a43cd9d829c8f1",
+    "spring.configuration.checksum": "cd775a87db14568b81ff0407cd4fc297",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java projects\spring\OutDoor\api-gateway\src\main\java\com\example\apigateway" />
       <recent name="D:\java projects\spring\OutDoor\client\src\main\java\com\outdoor\client\security" />
       <recent name="D:\java projects\spring\OutDoor\inventory\src\main\java\com\outddor\inventory\objects" />
       <recent name="D:\java projects\spring\out-door\product\src\main\resources" />
       <recent name="D:\java projects\spring\out-door\order\src\main\resources" />
-      <recent name="D:\java projects\spring\out-door\inventory\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
@@ -144,6 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.outdoor.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Product" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.outdoor.product.ProductApplication" />
@@ -178,8 +186,8 @@
       <workItem from="1676281574684" duration="2287000" />
       <workItem from="1676367217714" duration="13117000" />
       <workItem from="1676448944321" duration="5796000" />
-      <workItem from="1676535032026" duration="6319000" />
-      <workItem from="1676621101556" duration="6846000" />
+      <workItem from="1676535032026" duration="15969000" />
+      <workItem from="1676623294191" duration="3531000" />
     </task>
     <servers />
   </component>
