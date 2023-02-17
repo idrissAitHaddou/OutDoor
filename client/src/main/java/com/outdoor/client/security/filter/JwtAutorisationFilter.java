@@ -1,7 +1,7 @@
-package com.example.apigateway.security.filter;
+package com.outdoor.client.security.filter;
 
-import com.example.apigateway.security.config.JwtUtil;
-import com.example.apigateway.users.UserService;
+import com.outdoor.client.security.config.JwtUtil;
+import com.outdoor.client.services.UserService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

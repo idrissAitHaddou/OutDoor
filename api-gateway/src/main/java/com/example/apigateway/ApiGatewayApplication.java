@@ -1,6 +1,5 @@
 package com.example.apigateway;
 
-import com.example.apigateway.security.config.SecurityConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -16,7 +15,7 @@ public class ApiGatewayApplication {
 	}
 
 	@Bean
-	public RouteLocator routes(RouteLocatorBuilder builder, SecurityConfig securityConfig) {
+	public RouteLocator routes(RouteLocatorBuilder builder) {
 		return builder.routes()
 				.route("client", r -> r.path("/api/v1/user/**").uri("lb://client"))
 				.route("product", r -> r.path("/product/**").uri("lb://product"))
