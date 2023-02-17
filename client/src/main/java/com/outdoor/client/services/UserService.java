@@ -33,7 +33,6 @@ public class UserService {
                 .build();
         userRepository.save(user);
         log.info("User {} is saved", user.getId_user());
-
     }
 
     public List<UserResponse> getAllUsers() {
