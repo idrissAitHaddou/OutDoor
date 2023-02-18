@@ -1,6 +1,5 @@
 package com.example.apigateway;
 
-import com.example.apigateway.security.config.SecurityConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -17,11 +16,13 @@ public class ApiGatewayApplication {
 	}
 
 	@Bean
-	public RouteLocator routes(RouteLocatorBuilder builder, SecurityConfig securityConfig) {
+	public RouteLocator routes(RouteLocatorBuilder builder) {
 		return builder.routes()
 				.route("client", r -> r.path("/api/v1/user/**").uri("lb://client"))
-				.route("product", r -> r.path("/product/**").uri("lb://product"))
-				.route("inventory", r -> r.path("/api/v1/inventory/**").uri("lb://inventory")).build();
+				.route("product", r -> r.path("/api/v1/product/**").uri("lb://product"))
+				.route("order", r -> r.path("/api/v1/command/**").uri("lb://order"))
+				.route("inventory", r -> r.path("/api/v1/inventory/**").uri("lb://inventory")
+				).build();
 	}
 
 }

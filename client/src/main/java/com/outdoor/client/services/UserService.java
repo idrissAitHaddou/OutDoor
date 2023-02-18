@@ -7,6 +7,7 @@ import com.outdoor.client.request.UserRequest;
 import com.outdoor.client.response.UserResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
@@ -40,5 +41,9 @@ public class UserService {
         List<User> users = userRepository.findAll();
         List<UserResponse> userResponses = mapperUserDto.convertListToListDto(users,UserResponse.class);
         return userResponses;
+    }
+
+    public UserDetails loadUserByUsername(String email) {
+        return null;
     }
 }
