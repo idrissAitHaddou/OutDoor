@@ -2,7 +2,6 @@ package com.outdoor.client.controller;
 
 import com.outdoor.client.authentication.AuthenticationService;
 import com.outdoor.client.dto.UserDto;
-import com.outdoor.client.request.UserAuthRequest;
 import com.outdoor.client.request.UserRequest;
 import com.outdoor.client.response.UserResponse;
 import com.outdoor.client.security.config.JwtUtil;
@@ -10,13 +9,10 @@ import com.outdoor.client.services.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
 import java.util.List;
 
 @RestController
