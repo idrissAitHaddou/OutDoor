@@ -5,13 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c4ead35-abf2-4acd-b970-d09b522f7bb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/config/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/filter/JwtAutorisationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/filter/JwtConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/authentication/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/authentication/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/request/UserAuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/RsakeysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/SecurityServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/config/FeignClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/feign/UserFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/objects/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/security/RsakeysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/security/SecurityServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/security/config/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/security/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/security/filter/JwtAutorisationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/security/filter/JwtConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/config/FeignClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/feign/UserFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/objects/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/security/RsakeysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/security/SecurityServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/security/config/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/security/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/security/filter/JwtAutorisationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/security/filter/JwtConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/config/FeignClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/feign/UserFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/objects/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/security/RsakeysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/security/SecurityServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/security/config/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/security/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/security/filter/JwtAutorisationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/security/filter/JwtConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_02_2023_09_46_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_02_2023_09_46__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/entities/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/response/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/feign/ProductFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/feign/ProductFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/ProductApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +130,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "D:/java projects/spring/OutDoor/client/src/main/java/com/outdoor/client",
+    "last_opened_file_path": "D:/java projects/spring/OutDoor/order/src/main/java/com/outdoor/order",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,14 +142,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java projects\spring\OutDoor\order\src\main\java\com\outdoor\order" />
+      <recent name="D:\java projects\spring\OutDoor\product\src\main\java\com\outdoor\product" />
+      <recent name="D:\java projects\spring\OutDoor\inventory\src\main\java\com\outddor\inventory" />
+      <recent name="D:\java projects\spring\OutDoor\client\src\main\java\com\outdoor\client\authentication" />
       <recent name="D:\java projects\spring\OutDoor\client\src\main\java\com\outdoor\client" />
-      <recent name="D:\java projects\spring\OutDoor\api-gateway\src\main\java\com\example\apigateway\security" />
-      <recent name="D:\java projects\spring\OutDoor\api-gateway\src\main\java\com\example\apigateway" />
-      <recent name="D:\java projects\spring\OutDoor\client\src\main\java\com\outdoor\client\security" />
-      <recent name="D:\java projects\spring\OutDoor\inventory\src\main\java\com\outddor\inventory\objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientApplication">
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigateway.ApiGatewayApplication" />
@@ -159,8 +206,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ClientApplication" />
         <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.ClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +226,8 @@
       <workItem from="1676367217714" duration="13117000" />
       <workItem from="1676448944321" duration="5796000" />
       <workItem from="1676535032026" duration="15969000" />
-      <workItem from="1676623294191" duration="15539000" />
+      <workItem from="1676623294191" duration="24829000" />
+      <workItem from="1676714834845" duration="20623000" />
     </task>
     <servers />
   </component>

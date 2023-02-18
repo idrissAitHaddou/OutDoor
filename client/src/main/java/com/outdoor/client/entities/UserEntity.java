@@ -9,9 +9,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Builder
 @Data
-public class User {
+public class UserEntity {
     @Id
-    private String id_user;
+    private String id;
     private String firstname;
     private String lastname;
     private String email;

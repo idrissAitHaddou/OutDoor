@@ -1,27 +1,17 @@
-package com.outdoor.client.response;
+package com.outddor.inventory.objects;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.stereotype.Component;
 
 @Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
-public class UserResponse {
-
+public class User {
     private String id;
-
     private String firstname;
-
     private String lastname;
-
     private String email;
-
     private String password;
-
     private String image;
-
     private String role;
 }

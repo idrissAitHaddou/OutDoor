@@ -1,8 +1,9 @@
-package com.outdoor.client.security.config;
+package com.outddor.inventory.security.config;
 
-import com.outdoor.client.security.filter.JwtAuthenticationFilter;
-import com.outdoor.client.security.filter.JwtAutorisationFilter;
-import com.outdoor.client.services.UserService;
+import com.outddor.inventory.feign.UserFeign;
+import com.outddor.inventory.objects.User;
+import com.outddor.inventory.security.filter.JwtAuthenticationFilter;
+import com.outddor.inventory.security.filter.JwtAutorisationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,6 +25,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 @Configuration
@@ -31,11 +33,10 @@ import java.util.Arrays;
 @RequiredArgsConstructor
 public class SecurityConfig {
     private final String[] PUBLIC_ENDPOINTS = {
-            "/api/v1/user/authentication/**",
-            "/api/v1/user/load-by-email",
+
     };
     private final JwtAutorisationFilter jwtAutorisationFilter;
-    private final UserService userService;
+    private final UserFeign userFeign;
     private AuthenticationConfiguration config;
 
     @Bean
@@ -90,7 +91,8 @@ public class SecurityConfig {
         return new UserDetailsService(){
             @Override
             public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-                return userService.loadUserByUsername(email);
+                User user = userFeign.getUserByEmail(email);
+                return new org.springframework.security.core.userdetails.User(user.getEmail(), user.getPassword(), new ArrayList<>());
             }
         };
     }
