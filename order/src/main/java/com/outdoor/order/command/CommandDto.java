@@ -12,7 +12,6 @@ public class CommandDto {
     private Long id;
     private String status;
     private String adress;
-    private String createdAt;
     private int idUser;
-    private List<CommandProducts> commandProductsList = new ArrayList<>();
+    private List<CommandProducts> commandProductsList;
 }

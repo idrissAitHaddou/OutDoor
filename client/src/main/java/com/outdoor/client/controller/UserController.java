@@ -10,6 +10,7 @@ import com.outdoor.client.services.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -19,14 +20,12 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@RequiredArgsConstructor
 @RequestMapping("/api/v1/user")
 public class UserController {
 
     private final UserService userService;
     private final AuthenticationService authenticationService;
     private final JwtUtil jwtUtil;
-
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
     public void createUser(@Valid @RequestBody UserRequest userRequest){
