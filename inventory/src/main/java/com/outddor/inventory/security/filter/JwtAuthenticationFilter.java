@@ -1,7 +1,7 @@
-package com.outdoor.client.security.filter;
+package com.outddor.inventory.security.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.outdoor.client.security.config.JwtUtil;
+import com.outddor.inventory.security.config.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

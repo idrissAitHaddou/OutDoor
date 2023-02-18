@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 import java.util.List;
 
-@FeignClient(name = "product", url = "${spring.port.gatewaye.host}")
+@FeignClient(name = "product", url = "http://localhost:8083")
 public interface ProductFeign {
     @GetMapping("/api/v1/product/getAll")
     List<Product> getProducts();

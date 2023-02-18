@@ -1,27 +1,14 @@
-package com.outdoor.client.response;
+package com.outdoor.product.objects;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
-public class UserResponse {
-
+public class User {
     private String id;
-
     private String firstname;
-
     private String lastname;
-
     private String email;
-
     private String password;
-
     private String image;
-
     private String role;
 }
