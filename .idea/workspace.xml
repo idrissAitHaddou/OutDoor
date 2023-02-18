@@ -10,8 +10,34 @@
       <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/filter/JwtAuthenticationFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/filter/JwtAutorisationFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/security/filter/JwtConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/commandProduct/CommandProductsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/shared/ImagesRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/shared/ImagesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/shared/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/shared/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_02_2023_09_46_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_02_2023_09_46__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/outdoor/client/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/feign/ProductFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/feign/ProductFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/objects/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/objects/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/java/com/outddor/inventory/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/CommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/CommandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/CommandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/CommandDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/CommandProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/CommandProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/CommandRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/CommandRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/CommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/outdoor/order/command/CommandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/entities/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/entities/Images.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/outdoor/product/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +48,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="com.haulmont.jpb.JpaRepository" />
       </list>
     </option>
   </component>
@@ -89,11 +116,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "cd775a87db14568b81ff0407cd4fc297",
+    "spring.configuration.checksum": "731228ef2e62301a86a43cd9d829c8f1",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.outdoor.product.shared" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java projects\spring\OutDoor\client\src\main\java\com\outdoor\client" />
       <recent name="D:\java projects\spring\OutDoor\api-gateway\src\main\java\com\example\apigateway\security" />
@@ -102,7 +132,7 @@
       <recent name="D:\java projects\spring\OutDoor\inventory\src\main\java\com\outddor\inventory\objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientApplication">
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigateway.ApiGatewayApplication" />
@@ -145,7 +175,7 @@
       </method>
     </configuration>
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Product" />
+      <module name="product" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.outdoor.product.ProductApplication" />
       <extension name="coverage">
         <pattern>
@@ -159,8 +189,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ClientApplication" />
         <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.ClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +210,7 @@
       <workItem from="1676448944321" duration="5796000" />
       <workItem from="1676535032026" duration="15969000" />
       <workItem from="1676623294191" duration="15539000" />
+      <workItem from="1676722570119" duration="11997000" />
     </task>
     <servers />
   </component>

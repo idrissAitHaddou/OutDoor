@@ -8,14 +8,14 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 @Data
 @Document(indexName = "products")
 public class Product {
 
     @Id
-    @Field(type = FieldType.Auto)
-    private Long id;
+    private String id;
 
     @Field(type = FieldType.Text)
     private String name;
@@ -30,5 +30,10 @@ public class Product {
 
     @Field(type = FieldType.Nested)
     private List<Images> images;
+
+    public Product(){
+        this.id = UUID.randomUUID().toString().substring(0,4);
+    }
+
 
 }
